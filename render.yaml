@@ -1,7 +1,8 @@
 services:
   - type: web
     name: render-sample-app
-    env: docker
+    env: node
     plan: free
-    dockerfilePath: Dockerfile
+    buildCommand: npm install
+    startCommand: npm start
 
