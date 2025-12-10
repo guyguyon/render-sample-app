@@ -3,6 +3,6 @@ services:
     name: render-sample-app
     env: node
     plan: free
-    buildCommand: npm install
+    buildCommand: npm ci
     startCommand: npm start
 
